@@ -2,7 +2,6 @@
 
 #load data
 cmakelists=`cat CMakeLists.txt`
-paths=`cat paths.txt`
 
 #install dependancies
 echo "Installing dependancies..."
@@ -30,11 +29,6 @@ mkdir build
 cd build
 cmake ..
 sudo make install
-
-#update bashrc file
-echo "Updating bashrc file..."
-echo "$paths" >> ~/.bashrc
-exec bash
 
 #switch to Stage directory
 cd ../..
