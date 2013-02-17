@@ -2,7 +2,11 @@ Player/Stage Install Script
 ===========================
 A couple of bash scripts to automate the installation process of Player 3.0.2 and Stage 4.0.0 for Ubuntu. These scripts
 will automatically update bashrc with correct paths as well as downloading, compiling and installing Player and Stage from
-source.
+source. The script effectively automates the commands outlined in the following two guides:
+
+http://yorkroboticist.blogspot.co.uk/2011/12/upgrading-to-ubuntu-1110-with.html
+
+http://yorkroboticist.blogspot.co.uk/2011/10/installing-playerstage-in-ubuntu-natty.html
 
 Theoretically, this script should work with Ubuntu from 11.10+. I've tested it on a fresh install of Ubuntu 12.04 64 bit in a VM
 and it seems to work fine. I'm unsure if it will work with versions of Ubuntu below 11.10.
@@ -43,6 +47,6 @@ following.
 ```bash
 $ ./player-stage-install.sh
 ```
-If all works as intended, Player/Stage should then be correctly setup for us with CS264's assignment files.
+If all works as intended, Player/Stage should then be correctly setup for use with CS264's assignment files.
 
 
