@@ -21,7 +21,7 @@ wget https://github.com/rtv/Stage/archive/v4.0.0.tar.gz
 #extract them both
 echo "Extracting..."
 tar xvf player-3.0.2.tar.gz
-tar xvf Stage-4.0.0.tar.gz
+tar xvf v4.0.0.tar.gz
 
 #make player
 echo "Building player..."
