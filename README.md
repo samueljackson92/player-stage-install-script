@@ -17,7 +17,7 @@ $ sudo make uninstall
 ```
 
 Also check that any old files relating to Player or Stage have been removed from both ```/usr/local/lib``` and ```/usr/local/lib64``` in
-case this mucks with the paths.
+case this mucks with the paths. Finally, make sure that any path varaibles relating to Player/Stage are removed from the bashrc.
 
 Installing Player/Stage
 -----------------------
