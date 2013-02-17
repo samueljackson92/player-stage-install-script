@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #load data
-cmakelists=$(<CMakeLists.txt)
-paths=$(<paths.txt)
+cmakelists=`cat CMakeLists.txt`
+paths=`cat paths.txt`
 
 #install dependancies
 echo "Installing dependancies..."
