@@ -31,6 +31,11 @@ cd build
 cmake ..
 sudo make install
 
+#update bashrc file
+echo "Updating bashrc file..."
+echo $paths >> ~/.bashrc
+source ~/.bashrc
+
 #switch to Stage directory
 cd ../..
 cd Stage-4.0.0
@@ -45,9 +50,5 @@ mkdir build
 cd build
 cmake ..
 sudo make install
-
-#update bashrc file
-echo "Updating bashrc file..."
-echo $paths >> ~/.bashrc
 
 echo "Finished successfully!"
