@@ -33,7 +33,7 @@ sudo make install
 
 #update bashrc file
 echo "Updating bashrc file..."
-echo $paths >> ~/.bashrc
+echo "$paths" >> ~/.bashrc
 echo source ~/.bashrc
 
 #switch to Stage directory
@@ -42,7 +42,7 @@ cd Stage-4.0.0
 
 #copy updated make file to Stage 4.*
 echo "Preparing stage for install..."
-echo $cmakelists > ./libstage/CMakeLists.txt
+echo "$cmakelists" > ~/src/Stage-4.0.0/libstage/CMakeLists.txt
 
 #make stage
 echo "Building stage..."
