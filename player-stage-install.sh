@@ -6,7 +6,7 @@ paths=`cat paths.txt`
 
 #install dependancies
 echo "Installing dependancies..."
-sudo apt-get install pkg-config cmake libfltk1.1 libfltk1.1-dev freeglut3 freeglut3-dev libpng12-0 libpng12-dev libtool libltdl7 libltdl-dev libboost-thread-dev libboost-signals-dev libdb5.1-stl
+sudo apt-get install g++ pkg-config cmake libfltk1.1 libfltk1.1-dev freeglut3 freeglut3-dev libpng12-0 libpng12-dev libtool libltdl7 libltdl-dev libboost-thread-dev libboost-signals-dev libdb5.1-stl
 
 #make a directory to keep the source files
 echo "Preparing install directory..."
