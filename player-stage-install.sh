@@ -34,7 +34,7 @@ sudo make install
 #update bashrc file
 echo "Updating bashrc file..."
 echo "$paths" >> ~/.bashrc
-echo source ~/.bashrc
+exec bash
 
 #switch to Stage directory
 cd ../..
