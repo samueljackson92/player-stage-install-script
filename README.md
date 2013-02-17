@@ -16,12 +16,12 @@ If compiled from source this can be done by entering into the directory where Pl
 $ sudo make uninstall
 ```
 
-Also check that any old files relating to Player or Stage have been removed from both /usr/local/lib and /usr/local/lib64 in
+Also check that any old files relating to Player or Stage have been removed from both ```/usr/local/lib``` and ```/usr/local/lib64``` in
 case this mucks with the paths.
 
 Installing Player/Stage
 -----------------------
-First, either clone the git repo or download a tarball/zip file containing the files and extract them. Then cd into the
+First, either clone the git repo or download a tarball/zip file containing the files and extract them. Then ```cd``` into the
 directory. Change the two scripts to have executable permissions using the following command:
 
 ```bash
