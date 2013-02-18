@@ -8,8 +8,8 @@ http://yorkroboticist.blogspot.co.uk/2011/12/upgrading-to-ubuntu-1110-with.html
 
 http://yorkroboticist.blogspot.co.uk/2011/10/installing-playerstage-in-ubuntu-natty.html
 
-Theoretically, this script should work with Ubuntu from 11.10+. I've tested it on a fresh install of Ubuntu 12.04 64 bit in a VM
-and it seems to work fine. I'm unsure if it will work with versions of Ubuntu below 11.10.
+This script should work with Ubuntu from 11.04+. I've tested it on a fresh install of Ubuntu 12.04 64 bit in a VM
+and it seems to work fine. I'm unsure if it will work with versions of Ubuntu below 11.04.
 
 Pre-Install
 -----------
