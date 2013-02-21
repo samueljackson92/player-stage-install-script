@@ -12,7 +12,7 @@ This script should work with Ubuntu from 11.04+. I've tested it on a fresh insta
 and it seems to work fine. I'm unsure if it will work with versions of Ubuntu below 11.04.
 
 ###Update
-The script has now patched to fix a minor compliation bug with Ubuntu 12.10.
+The script has now been patched to fix a minor compliation bug with Ubuntu 12.10.
 
 Pre-Install
 -----------
