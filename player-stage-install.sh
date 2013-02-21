@@ -25,7 +25,7 @@ wget https://github.com/rtv/Stage/archive/v$stage_version.tar.gz
 #extract them both
 echo "Extracting..."
 tar xvf player-$player_version.tar.gz
-tar xvf $stage_version.tar.gz
+tar xvf v$stage_version.tar.gz
 
 #Patching Player
 echo "$patch_file" > ~/src/player-$player_version/server/drivers/shell/readlog.cc
