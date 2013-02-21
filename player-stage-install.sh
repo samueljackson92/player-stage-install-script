@@ -2,6 +2,7 @@
 
 #load data
 cmakelists=`cat CMakeLists.txt`
+patch_file=`cat readlog_patch.cc`
 
 #install dependancies
 echo "Installing dependancies..."
@@ -21,6 +22,9 @@ wget https://github.com/rtv/Stage/archive/v4.0.0.tar.gz
 echo "Extracting..."
 tar xvf player-3.0.2.tar.gz
 tar xvf v4.0.0.tar.gz
+
+#Patching Player
+echo "$patch_file" > ~/src/player-3.0.2/server/drivers/shell/readlog.cc
 
 #make player
 echo "Building player..."
