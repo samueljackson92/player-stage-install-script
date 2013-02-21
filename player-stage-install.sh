@@ -34,6 +34,12 @@ cd build
 cmake ..
 sudo make install
 
+if [ $? -eq 0 ]
+	then
+	echo "Failed to build player. Quitting."
+	exit
+fi
+
 #switch to Stage directory
 cd ../..
 cd Stage-4.0.0
@@ -48,5 +54,11 @@ mkdir build
 cd build
 cmake ..
 sudo make install
+
+if [ $? -eq 0 ]
+	then
+	echo "Failed to build stage. Quitting."
+	exit
+fi
 
 echo "Finished successfully!"
