@@ -38,12 +38,6 @@ cd build
 cmake ..
 sudo make install
 
-if [ $? -eq 0 ]
-	then
-	echo "Failed to build player. Quitting."
-	exit
-fi
-
 #switch to Stage directory
 cd ../..
 cd Stage-$stage_version
@@ -59,10 +53,3 @@ cd build
 cmake ..
 sudo make install
 
-if [ $? -eq 0 ]
-	then
-	echo "Failed to build stage. Quitting."
-	exit
-fi
-
-echo "Finished successfully!"
