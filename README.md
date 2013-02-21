@@ -11,6 +11,9 @@ http://yorkroboticist.blogspot.co.uk/2011/10/installing-playerstage-in-ubuntu-na
 This script should work with Ubuntu from 11.04+. I've tested it on a fresh install of Ubuntu 12.04 64 bit in a VM
 and it seems to work fine. I'm unsure if it will work with versions of Ubuntu below 11.04.
 
+###Update
+The script has now patched to fix a minor compliation bug with Ubuntu 12.10.
+
 Pre-Install
 -----------
 Before installing Player/Stage, ensure that all other versions of Player/Stage have been removed from the machine.
